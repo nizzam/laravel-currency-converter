@@ -1,15 +1,33 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.5.22',
-        'version' => '8.5.22.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'dcd446f42b6261d7ded11e2d53b1fe38dad8cef5',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
     'versions' => array(
+        'amrshawky/currency' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../amrshawky/currency',
+            'aliases' => array(),
+            'reference' => '39f13b6783ef611fd13916d48abd31bca2ab1e54',
+            'dev_requirement' => false,
+        ),
+        'amrshawky/laravel-currency' => array(
+            'pretty_version' => '4.0.0',
+            'version' => '4.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../amrshawky/laravel-currency',
+            'aliases' => array(),
+            'reference' => 'ce9444bac85fe0cbdd4b2e9131d6a9d2bfdefbf1',
+            'dev_requirement' => false,
+        ),
         'asm89/stack-cors' => array(
             'pretty_version' => 'v2.0.3',
             'version' => '2.0.3.0',
@@ -404,12 +422,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.5.22',
-            'version' => '8.5.22.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'dcd446f42b6261d7ded11e2d53b1fe38dad8cef5',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -760,8 +778,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
